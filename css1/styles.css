@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-    border-width: 2px;
-    border-style: solid;
-    border-color: red;
+    
 }
 
 body {
@@ -28,14 +26,10 @@ header {
     background-color: #FBDA61;
     background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
 }
-
-.contenedorMain,
-.container-fluid,
-.container-xxl,
-.container-xl,
-.container-lg,
-.container-md,
-.container-sm {
+li {
+  appearance: none;
+}
+.contenedorMain{
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
@@ -46,33 +40,37 @@ header {
 }
 
 @media (min-width: 576px) {
-  .container-sm, .contenedorMain {
+  .contenedorMain {
     max-width: 540px;
   }
 }
 @media (min-width: 768px) {
-  .container-md, .container-sm, .contenedorMain {
+   .contenedorMain {
     max-width: 720px;
   }
 }
 @media (min-width: 992px) {
-  .container-lg, .container-md, .container-sm, .contenedorMain {
-    max-width: 960px;
+   .contenedorMain {
+    max-width: 940;
   }
 }
 @media (min-width: 1200px) {
-  .container-xl, .container-lg, .container-md, .container-sm, .contenedorMain {
-    max-width: 1140px;
+   .contenedorMain {
+    max-width: 940;
   }
 }
 @media (min-width: 1400px) {
-  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .contenedorMain {
-    max-width: 1320px;
+   .contenedorMain {
+    max-width: 940;
   }
 }
 .img-responsive {
-    max-width: 100%;
-    height: auto;
+    max-width: 90%;
+    max-height: 500px;
+    object-fit: contain;
+}
+.img-responsive-menu{
+  object-fit: contain;
 }
 .img-responsive-pie{
     max-width: 100%;
@@ -125,25 +123,14 @@ header {
         background: red;
         transition: background 2s linear;
       }
-.animated {
-    animation: 
-    move-right 5s linear 0s,   
-    look-up 2.5s linear 5s,    
-    move-left 5s linear 7.5s,  
-    dissapear 2s linear 9.5s;  
-      }
-
 .mapita {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 100%;
-    
-    
+    grid-template-rows: 100%;      
 }
 .formulario {
 display: grid;
 grid-column-end: auto;
-
 }
 .formulario-uno {
     display: inline-block;
@@ -154,23 +141,20 @@ grid-column-end: auto;
     box-shadow: 5px 2px 30px 5px black;
     box-sizing: border-box;
 }
-
-
 .title-section1 {
     display: grid;
 }
 .footer{
+  margin: 0;
   display: grid;
   grid-template-columns: 100% ;
   grid-template-rows: 25% 25% 25% 25%;
   gap: 1%;
+  bottom: 0;
 }
 .subir1{
         background: rgba(78, 80, 78, 0);
-        order: 3;
+        
       }
-.scale-in-left {
-        -webkit-animation: scale-in-left 1s linear both;
-                animation: scale-in-left 1s linear both;
-}
+
 

@@ -7,37 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Montserrat:wght@200;400;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Montserrat:wght@200;400;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css1/styles.css">
     <title>Descubriendo Cordoba</title>
 </head>
 
 <body>
 
-    <header>
-        <h1>Descubriendo Cordoba </h1>
-        <nav>
-            <a href="#inicio"><img class="icon" src="./img/logo.jpg" alt="logo"></a>
-            <ul>
-                <li><a href="./Pagina 2/pagina2.html">
-                        <h3>Motociclismo</h3>
-                    </a>
-                <li><a href="./Pagina 2/pagina3.html">
-                        <h3>Trekking</h3>
-                    </a>
-                <li><a href="./Pagina 2/pagina5.html">
-                        <h3>Contacto</h3>
-                    </a>
-
+    <header class="navbar navbar-expand-lg bg-light">
+        <nav class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><h1> Descubriendo Cordoba</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./Pagina2/pagina2.html">Motociclismo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pagina2/pagina3.html">Trekking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pagina2/pagina4.html">Gatronomia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pagina2/pagina5.html">Contacto</a>
+              </li>                          
             </ul>
+            </div>
         </nav>
-    </header>
-
-
+      </header>  
     <div>
-        <p class="bienvenida">Hola Mundo! Bienvenidos a Descubriendo Cordoba, un sitio web donde encontraras informacion
+        <p class="bienvenida text-center">Hola Mundo! Bienvenidos a Descubriendo Cordoba, un sitio web donde encontraras informacion
             relacionada a
             motoviajeros y senderistas que recorran cordoba, te brindaremos lo que necesitas para emprender una
             aventura por los lugares mas bellos de nuestra provincia.
@@ -45,80 +49,71 @@
             quidem eos! Ex recusandae, ipsam at soluta numquam culpa ea veniam error earum, ipsum id eligendi!
         </p>
     </div>
-
-    <main class="mainPage">
-        
-        <section>
-         <article> 
+    <main class="contenedorMain text-center">        
+        <section class="cajaUno">
+         <article class="col"> 
               <h2>Rutas de Cordoba</h2>
-            <a href="./Pagina 2/pagina2.html"><img class="noticias-portada" src="./img/enanex001.jpg"></a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis
+            <a href="./Pagina 2/pagina2.html"><img class="img-responsive" src="./img/atardecer1.jpg"></a>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis
                 debitis a, veniam rerumarchitecto quae cumque? Nobis assumenda laudantium, quos reiciendis sunt exercitationem facere,
                 sed</p>        
          </article>
-
-        <article>
-
+        <article class="col">
             <h2>Senderos de Cordoba</h2>
-            <a href="./Pagina 2/pagina3.html"><img class="noticias-portada" src="./img/fondopantalla1.jpg"></a>
-            <p class="noticias-portada-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis
+            <a href="./Pagina 2/pagina3.html">                
+                <img src="./img/atardecer1.jpg" class="img-responsive"></a>              
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis
                 debitis a, veniam rerum
                 architecto quae cumque? Nobis assumenda laudantium, quos reiciendis sunt exercitationem facere,
                 sed
             </p>            
         </article>
-        <article>            
+        <article class="col">            
                 <h2>Comer en Cordoba</h2>
-                <a href="./Pagina 2/pagina4.html"><img class="noticias-portada" src="./img/atardecer1.jpg"></a>
-                <p class="noticias-portada-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis
+                <a href="./Pagina 2/pagina4.html"><img class="img-responsive" src="./img/atardecer1.jpg"></a>
+                <p class= "text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis
                     debitis a, veniam rerum
                     architecto quae cumque? Nobis assumenda laudantium, quos reiciendis sunt exercitationem facere,
                     sed</p>
             </article>  
-            <article> 
+            <article class="col"> 
                 <h2>Rutas de Cordoba</h2>
-              <a href="./Pagina 2/pagina2.html"><img class="noticias-portada" src="./img/enanex001.jpg"></a>
-              <p class="noticias-portada-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis
+              <a href="./Pagina 2/pagina2.html"><img class="img-responsive" src="./img/atardecer1.jpg"></a>
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis
                   debitis a, veniam rerum
                   architecto quae cumque? Nobis assumenda laudantium, quos reiciendis sunt exercitationem facere,
                   sed</p>
           </div>
-           </article>
-  
-          <article>
-  
+           </article>  
+          <article class="col">  
               <h2>Senderos de Cordoba</h2>
-              <a href="./Pagina 2/pagina3.html"><img class="noticias-portada" src="./img/fondopantalla1.jpg"></a>
-              <p class="noticias-portada-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis
+              <a href="./Pagina 2/pagina3.html"><img class="img-responsive" src="./img/atardecer1.jpg"></a>
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis
                   debitis a, veniam rerum
                   architecto quae cumque? Nobis assumenda laudantium, quos reiciendis sunt exercitationem facere,
                   sed
               </p>            
           </article>
-          <article class="bordes">            
+          <article class="col">            
                   <h2>Comer en Cordoba</h2>
-                  <a href="./Pagina 2/pagina4.html"><img class="noticias-portada" src="./img/atardecer1.jpg"></a>
-                  <p class="noticias-portada-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis
+                  <a href="./Pagina 2/pagina4.html"><img class="img-responsive" src="./img/atardecer1.jpg"></a>
+                  <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis
                       debitis a, veniam rerum
                       architecto quae cumque? Nobis assumenda laudantium, quos reiciendis sunt exercitationem facere,
                       sed</p>
               </article>
         </section>         
     </main>
-    <aside>
-        <div>
-        <img class="pie-pagina" src="./img/f966c096079b91472fdb564a760a3499.jpg">
-    </div>
-</aside>
     <hr>
     <footer>
         <ul>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim vitae veniam necessitatibus? Soluta aliquid facilis molestiae, excepturi, asperiores esse aperiam mollitia assumenda nostrum enim explicabo maiores adipisci tenetur vitae ad.</p>
-            <li><a href="./index.html"><img class="subir1" src="./img/subir1.jpg"></a>
+            <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim vitae veniam necessitatibus? Soluta aliquid facilis molestiae, excepturi, asperiores esse aperiam mollitia assumenda nostrum enim explicabo maiores adipisci tenetur vitae ad.</p>
+            <li><a href="./index.html"><img class="img-responsive" src="./img/subir.png"></a>
         </ul>
        
     </footer>
   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
 </body>
 

@@ -2,77 +2,96 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trekking - Descubriendo Cordoba</title>
-    <link rel="stylesheet" href="../css/styles.css">
-</head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trekking - Descubriendo Cordoba</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Montserrat:wght@200;400;700&display=swap"
+            rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css1/styles.css">
+    </head>
 
 <body>
-    <header>
-        <h1>Descubriendo Cordoba </h1>
-        <nav>
-            <a href="/index.html"><img class="icon" src="/img/logo.jpg" alt="logo"></a>
-            <ul>
-                <li><a href="./pagina2.html">
-                        <h3>Motociclismo</h3>
-                    </a>
-                <li><a href="./pagina3.html">
-                        <h3>Trekking</h3>
-                    </a>
-                <li><a href="./pagina5.html">
-                        <h3>Contacto</h3>
-                    </a>
-
-            </ul>
+    <header class="navbar navbar-expand-lg bg-light">
+        <nav class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <h1> Descubriendo Cordoba</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./pagina2.html">Motociclismo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pagina3.html">Trekking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pagina4.html">Gastronomia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pagina5.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
-        <h2 class="title-section1">Trekking</h2>
-        <h3 class="noticias-portada-texto2">Cascadas impresionantes, rios subterraneos, los imponentes cerros mogote, la
-            mistica del uritorco o el
-            majestuoso champaqui se imponen repartidos como vigilantes a lo largo y ancho de la provincia.</h3>
-        <img class="imagen-trekking" src="../img/img-trekking2.jpg">
-        <p class="noticias-portada-texto2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum
-            quaerat animi iste impedit. Sed, quae
-            voluptatem quasi pariatur accusantium cum inventore iusto. Id magni at quas quaerat atque repellat. Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Quia quae ducimus vel doloremque dicta pariatur
-            reiciendis, nisi fugit voluptatem itaque praesentium aspernatur repudiandae nulla at quidem cumque officiis?
-            Iure, libero!</p>
-        <img class="imagen-trekking" src="../img/img-trekking1.jpg" alt="">
-        <p class="noticias-portada-texto2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,
-            voluptas recusandae in soluta repudiandae aut suscipit incidunt harum ipsam excepturi eum, accusantium, eos
-            nobis voluptates. Itaque incidunt impedit labore molestias, iusto sequi in quo eius velit illo vitae! Rem
-            consequuntur quisquam repudiandae fugit, nisi placeat perspiciatis voluptas culpa voluptate quas sit non
-            aliquam aperiam sint. Excepturi, iure laudantium, quisquam nobis ullam sint eligendi quia quo eius hic
-            recusandae in repellendus, asperiores voluptatem consequatur corrupti neque perferendis ipsam et
-            accusantium. Ipsum nulla labore enim. Sed nesciunt saepe nemo quasi aut unde, perspiciatis, placeat ex,
-            accusantium asperiores incidunt. Nihil nulla optio similique accusamus provident debitis repudiandae aut
-            deserunt sed expedita itaque et facilis tempore est molestias sit in deleniti eligendi modi officiis, minima
-            animi. Error labore aliquid alias repellendus iste quod maxime animi culpa sapiente harum laudantium a illo
-            fuga, voluptatibus reiciendis dolorum id aut similique est, nam consequatur tempora beatae cupiditate?
-            Incidunt, nulla molestias sapiente sequi cumque aliquid reiciendis debitis excepturi sed ad nisi voluptatum
-            doloribus in! Rerum, soluta laborum? Velit nostrum pariatur, error illo facilis rem necessitatibus, saepe
-            officia magnam soluta iste adipisci quae! Suscipit molestiae et veniam reprehenderit tempore deserunt illo
-            dolorum consequatur deleniti quae, eos similique sed. Natus?</p>
-
+        <h2>TREKKING EN CORDOBA</h2>
+        <section id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <article class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/img-trekking1.jpg" class="d-block w-100 img-responsive" alt="5%">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/img-trekking2.jpg" class="d-block w-100 img-responsive" alt="5%">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/img-trekking.jpg" class="d-block w-100 img-responsive" alt="5%">
+                </div>
+            </article>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Atras</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sequi. Unde fugit ipsam omnis cumque
+                    odit, aliquid labore error nesciunt modi pariatur assumenda possimus beatae excepturi? Voluptatem
+                    recusandae tempora nemo animi harum soluta pariatur, quisquam odio natus sed doloremque sint ducimus
+                    ex nulla illo! Labore consequatur accusantium nostrum deserunt perferendis.</p>
+            </div>
+        </section>
     </main>
-    <section>
-        <article>
-            <img class="pie-pagina" src="../img/f966c096079b91472fdb564a760a3499.jpg">
-        </article>
-    </section>
     <hr>
     <footer>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis qui ad magni nulla vero expedita eveniet
-            distinctio obcaecati? Iusto dicta assumenda explicabo dolorem illo dignissimos deleniti voluptatem, tempora
-            rem cumque.</p>
         <ul>
-            <li><a href="./pagina3.html"><img class="subir1" src="../img/subir1.jpg"></a>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est accusantium reiciendis rerum ex, dolore,
+                facilis voluptatem doloribus cupiditate illo error ipsa animi molestiae consequatur incidunt dicta nemo
+                nulla! Libero, nulla?</p>
+            <li><a href="./pagina3.html"><img class="subir1" src="../img/subir.png"></a>
         </ul>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
